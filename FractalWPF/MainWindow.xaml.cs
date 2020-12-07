@@ -28,9 +28,9 @@ namespace FractalWPF
         private void create_project(object sender, RoutedEventArgs e)
         {
             ChoseProjectTypeWindow choseProjectTypeWindow = new ChoseProjectTypeWindow();
-            choseProjectTypeWindow.Owner = this;
+            this.Hide();
 
-            choseProjectTypeWindow.ShowDialog();
+            choseProjectTypeWindow.Show();
         }
 
         private void open_project(object sender, RoutedEventArgs e)
