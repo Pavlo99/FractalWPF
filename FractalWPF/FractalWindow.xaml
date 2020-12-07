@@ -6,7 +6,5 @@
         xmlns:local="clr-namespace:FractalWPF"
         mc:Ignorable="d"
         Title="FractalWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <Grid/>
 </Window>

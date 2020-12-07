@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -58,6 +59,7 @@
     <Compile Include="ColorSchemesWindow.xaml.cs">
       <DependentUpon>ColorSchemesWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\Drawer.cs" />
     <Compile Include="TriangleWindow.xaml.cs">
       <DependentUpon>TriangleWindow.xaml</DependentUpon>
     </Compile>
@@ -130,7 +132,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Model\" />
     <Folder Include="ViewModel\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
