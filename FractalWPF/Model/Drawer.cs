@@ -12,12 +12,15 @@ namespace FractalWPF.Model
     {
         delegate void TrigonometricFunction(ref double oldReal, ref double oldImagine, out double newReal, out double newImagine, double cReal, double cImagine);
         TrigonometricFunction TFunction;
-        Drawer()
+        public Drawer()
         {
             TFunction += cosinus;
         }
-        public void DrawFractal(Graphics panel, Pen pen, ProgressBar progressBar, double cReal, double cImagine, double scaling, int colorMode, int width, int height)
+        public void DrawFractal(Canvas canvas, Pen pen, ProgressBar progressBar, double cReal, double cImagine, double scaling, int colorMode, int width, int height)
         {
+            
+            
+
             double newReal, newImagine, oldReal, oldImagine;
             double zoom = scaling, moveX = 0, moveY = 0;
             int maxIterations = 300;
@@ -42,7 +45,7 @@ namespace FractalWPF.Model
                         if (Math.Abs(Math.Abs(oldImagine) - Math.Abs(newImagine)) < 0.01) break;
                     }
                     pen.Color = Color.FromArgb(255, (i * 9 * rConst) % 255, (i * 9 * gConst), (i * 9 * bConst) % 255);
-                    panel.DrawRectangle(pen, x, y, 1, 1);
+                    canvas. (pen, x, y, 1, 1);
                 }
                 progressBar.Value += 1;
             }

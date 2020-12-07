@@ -6,5 +6,8 @@
         xmlns:local="clr-namespace:FractalWPF"
         mc:Ignorable="d"
         Title="FractalWindow" Height="450" Width="800">
-    <Grid/>
+    <Grid>
+        <Canvas x:Name="canvas_Fractal" HorizontalAlignment="Left" Height="348" VerticalAlignment="Top" Width="774" Margin="10,62,0,0"/>
+        <Button x:Name="button_draw" Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="RenderCanvas"/>
+    </Grid>
 </Window>
