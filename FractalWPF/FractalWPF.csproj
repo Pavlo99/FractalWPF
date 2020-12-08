@@ -56,30 +56,30 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="ColorSchemesWindow.xaml.cs">
+    <Compile Include="View\ColorSchemesWindow.xaml.cs">
       <DependentUpon>ColorSchemesWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\Drawer.cs" />
-    <Compile Include="TriangleWindow.xaml.cs">
+    <Compile Include="View\TriangleWindow.xaml.cs">
       <DependentUpon>TriangleWindow.xaml</DependentUpon>
     </Compile>
-    <Page Include="ChoseProjectTypeWindow.xaml">
+    <Page Include="View\ChoseProjectTypeWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ColorSchemesWindow.xaml">
+    <Page Include="View\ColorSchemesWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="FAQWindow.xaml">
+    <Page Include="View\FAQWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="FractalWindow.xaml">
+    <Page Include="View\FractalWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainWindow.xaml">
+    <Page Include="View\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -87,20 +87,20 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ChoseProjectTypeWindow.xaml.cs">
+    <Compile Include="View\ChoseProjectTypeWindow.xaml.cs">
       <DependentUpon>ChoseProjectTypeWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="FAQWindow.xaml.cs">
+    <Compile Include="View\FAQWindow.xaml.cs">
       <DependentUpon>FAQWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="FractalWindow.xaml.cs">
+    <Compile Include="View\FractalWindow.xaml.cs">
       <DependentUpon>FractalWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
+    <Compile Include="View\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="TriangleWindow.xaml">
+    <Page Include="View\TriangleWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
